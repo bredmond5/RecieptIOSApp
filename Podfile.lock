@@ -1,0 +1,20 @@
+PODS:
+  - Anchors (2.3.0)
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - Anchors
+  - TesseractOCRiOS (= 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Anchors
+    - TesseractOCRiOS
+
+SPEC CHECKSUMS:
+  Anchors: 000f9206b6f898ac9c021e4cf537161efb0d9ec3
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+
+PODFILE CHECKSUM: 02cd9ebe44092ae08b3bc9ae223c5def8de46e3d
+
+COCOAPODS: 1.5.3

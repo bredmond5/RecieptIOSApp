@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35276034212BD69B00185C8B /* GroupAmtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35276033212BD69B00185C8B /* GroupAmtViewController.swift */; };
+		35276056213E3FBB00185C8B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35276055213E3FBB00185C8B /* Group.swift */; };
+		35276058213E414E00185C8B /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35276057213E414E00185C8B /* PaymentButton.swift */; };
+		3527605A214053B000185C8B /* PercentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35276059214053B000185C8B /* PercentsViewController.swift */; };
+		3527606F21405AF100185C8B /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527606E21405AF100185C8B /* FinalViewController.swift */; };
+		353A66A0215618D2001EC843 /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A669F215618D2001EC843 /* ViewController+Extensions.swift */; };
+		353A66A421561A12001EC843 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A66A321561A12001EC843 /* OCRService.swift */; };
+		353A66AB215850E2001EC843 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353A66AA215850E2001EC843 /* CoreImage.framework */; };
+		353A66AD215850F8001EC843 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 353A66AC215850F8001EC843 /* libstdc++.tbd */; };
+		353A66AF21585128001EC843 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353A66AE21585128001EC843 /* TesseractOCR.framework */; };
+		353A66B32159B8A4001EC843 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A66B22159B8A4001EC843 /* PictureViewController.swift */; };
+		358FE776215604C8003C2DC9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FE775215604C8003C2DC9 /* CameraViewController.swift */; };
 		35989AFC20FC4ECA004E430C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35989AFB20FC4ECA004E430C /* AppDelegate.swift */; };
-		35989AFE20FC4ECA004E430C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35989AFD20FC4ECA004E430C /* ViewController.swift */; };
+		35989AFE20FC4ECA004E430C /* OrganizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35989AFD20FC4ECA004E430C /* OrganizationViewController.swift */; };
 		35989B0120FC4ECA004E430C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35989AFF20FC4ECA004E430C /* Main.storyboard */; };
 		35989B0320FC4ECC004E430C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35989B0220FC4ECC004E430C /* Assets.xcassets */; };
 		35989B0620FC4ECC004E430C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35989B0420FC4ECC004E430C /* LaunchScreen.storyboard */; };
+		35EDF2A72154A6040039A85F /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 35EDF2A62154A6040039A85F /* tessdata */; };
+		35F03373215229E900BDA092 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F03372215229E900BDA092 /* RoundedButton.swift */; };
+		47DD57E7550518D367CD0E06 /* Pods_RecieptApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E981DAF9A53E6D3F32B4F653 /* Pods_RecieptApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A9D74B06B4658D1D4514E0E /* Pods-RecieptApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecieptApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecieptApp/Pods-RecieptApp.release.xcconfig"; sourceTree = "<group>"; };
+		35276033212BD69B00185C8B /* GroupAmtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAmtViewController.swift; sourceTree = "<group>"; };
+		35276055213E3FBB00185C8B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		35276057213E414E00185C8B /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		35276059214053B000185C8B /* PercentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentsViewController.swift; sourceTree = "<group>"; };
+		3527606E21405AF100185C8B /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		353A669F215618D2001EC843 /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		353A66A321561A12001EC843 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		353A66AA215850E2001EC843 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		353A66AC215850F8001EC843 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		353A66AE21585128001EC843 /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		353A66B22159B8A4001EC843 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PictureViewController.swift; path = /Users/bredmond/Desktop/RecieptApp/RecieptApp/PictureViewController.swift; sourceTree = "<absolute>"; };
+		358FE775215604C8003C2DC9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		35989AF820FC4ECA004E430C /* RecieptApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecieptApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35989AFB20FC4ECA004E430C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35989AFD20FC4ECA004E430C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35989AFD20FC4ECA004E430C /* OrganizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationViewController.swift; sourceTree = "<group>"; };
 		35989B0020FC4ECA004E430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35989B0220FC4ECC004E430C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35989B0520FC4ECC004E430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35989B0720FC4ECC004E430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EDF2A62154A6040039A85F /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		35F03372215229E900BDA092 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E981DAF9A53E6D3F32B4F653 /* Pods_RecieptApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecieptApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5485E8DAE5B4232D11AA89D /* Pods-RecieptApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecieptApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecieptApp/Pods-RecieptApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353A66AF21585128001EC843 /* TesseractOCR.framework in Frameworks */,
+				353A66AD215850F8001EC843 /* libstdc++.tbd in Frameworks */,
+				353A66AB215850E2001EC843 /* CoreImage.framework in Frameworks */,
+				47DD57E7550518D367CD0E06 /* Pods_RecieptApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3314B4219C76C796D61CF89B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5485E8DAE5B4232D11AA89D /* Pods-RecieptApp.debug.xcconfig */,
+				1A9D74B06B4658D1D4514E0E /* Pods-RecieptApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		35989AEF20FC4ECA004E430C = {
 			isa = PBXGroup;
 			children = (
 				35989AFA20FC4ECA004E430C /* RecieptApp */,
 				35989AF920FC4ECA004E430C /* Products */,
+				3314B4219C76C796D61CF89B /* Pods */,
+				AD72454ECCAE5C9C4BDA8E7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,36 @@
 		35989AFA20FC4ECA004E430C /* RecieptApp */ = {
 			isa = PBXGroup;
 			children = (
+				35EDF2A62154A6040039A85F /* tessdata */,
 				35989AFB20FC4ECA004E430C /* AppDelegate.swift */,
-				35989AFD20FC4ECA004E430C /* ViewController.swift */,
+				35F03372215229E900BDA092 /* RoundedButton.swift */,
+				35276057213E414E00185C8B /* PaymentButton.swift */,
+				35276055213E3FBB00185C8B /* Group.swift */,
+				35276033212BD69B00185C8B /* GroupAmtViewController.swift */,
+				35989AFD20FC4ECA004E430C /* OrganizationViewController.swift */,
+				35276059214053B000185C8B /* PercentsViewController.swift */,
+				3527606E21405AF100185C8B /* FinalViewController.swift */,
+				358FE775215604C8003C2DC9 /* CameraViewController.swift */,
+				353A66B22159B8A4001EC843 /* PictureViewController.swift */,
+				353A66A321561A12001EC843 /* OCRService.swift */,
+				353A669F215618D2001EC843 /* ViewController+Extensions.swift */,
 				35989AFF20FC4ECA004E430C /* Main.storyboard */,
 				35989B0220FC4ECC004E430C /* Assets.xcassets */,
 				35989B0420FC4ECC004E430C /* LaunchScreen.storyboard */,
 				35989B0720FC4ECC004E430C /* Info.plist */,
 			);
 			path = RecieptApp;
+			sourceTree = "<group>";
+		};
+		AD72454ECCAE5C9C4BDA8E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353A66AE21585128001EC843 /* TesseractOCR.framework */,
+				353A66AC215850F8001EC843 /* libstdc++.tbd */,
+				353A66AA215850E2001EC843 /* CoreImage.framework */,
+				E981DAF9A53E6D3F32B4F653 /* Pods_RecieptApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35989B0A20FC4ECC004E430C /* Build configuration list for PBXNativeTarget "RecieptApp" */;
 			buildPhases = (
+				378BA9A48CA1C545ADCBF6B0 /* [CP] Check Pods Manifest.lock */,
 				35989AF420FC4ECA004E430C /* Sources */,
 				35989AF520FC4ECA004E430C /* Frameworks */,
 				35989AF620FC4ECA004E430C /* Resources */,
+				038041E4F5C856D26247CE6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35989B0620FC4ECC004E430C /* LaunchScreen.storyboard in Resources */,
+				35EDF2A72154A6040039A85F /* tessdata in Resources */,
 				35989B0320FC4ECC004E430C /* Assets.xcassets in Resources */,
 				35989B0120FC4ECA004E430C /* Main.storyboard in Resources */,
 			);
@@ -130,13 +202,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		038041E4F5C856D26247CE6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RecieptApp/Pods-RecieptApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Anchors/Anchors.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Anchors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecieptApp/Pods-RecieptApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		378BA9A48CA1C545ADCBF6B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecieptApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35989AF420FC4ECA004E430C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35989AFE20FC4ECA004E430C /* ViewController.swift in Sources */,
+				353A66B32159B8A4001EC843 /* PictureViewController.swift in Sources */,
+				35276034212BD69B00185C8B /* GroupAmtViewController.swift in Sources */,
+				3527606F21405AF100185C8B /* FinalViewController.swift in Sources */,
+				358FE776215604C8003C2DC9 /* CameraViewController.swift in Sources */,
+				35989AFE20FC4ECA004E430C /* OrganizationViewController.swift in Sources */,
+				35F03373215229E900BDA092 /* RoundedButton.swift in Sources */,
+				35276058213E414E00185C8B /* PaymentButton.swift in Sources */,
 				35989AFC20FC4ECA004E430C /* AppDelegate.swift in Sources */,
+				3527605A214053B000185C8B /* PercentsViewController.swift in Sources */,
+				353A66A421561A12001EC843 /* OCRService.swift in Sources */,
+				35276056213E3FBB00185C8B /* Group.swift in Sources */,
+				353A66A0215618D2001EC843 /* ViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +320,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -257,6 +381,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -278,10 +403,14 @@
 		};
 		35989B0B20FC4ECC004E430C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5485E8DAE5B4232D11AA89D /* Pods-RecieptApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XFJ93AK5X;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RecieptApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +424,15 @@
 		};
 		35989B0C20FC4ECC004E430C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9D74B06B4658D1D4514E0E /* Pods-RecieptApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XFJ93AK5X;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RecieptApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
