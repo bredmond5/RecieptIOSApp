@@ -15,7 +15,7 @@ class PictureViewController: UIViewController, UINavigationControllerDelegate, U
     
     var pictureTaken: Bool = false
     
-    var translation: CGPoint?
+//    var translation: CGPoint?
     var start: CGPoint?
     
     var textFound: String?
@@ -80,11 +80,10 @@ class PictureViewController: UIViewController, UINavigationControllerDelegate, U
     
     @IBAction func panGesture(_ gestureRecognizer: UIPanGestureRecognizer) {
         if(start != nil) {
-            translation = gestureRecognizer.translation(in: imageView)
-            let size = CGSize(width: translation!.x, height: translation!.y)
+            let translation = gestureRecognizer.translation(in: imageView)
+//            let size = CGSize(width: translation.x, height: translation.y)
             
-            
-            let bounds = CGRect(x: start!.x, y: start!.y, width: size.width, height: size.height)
+            let bounds = CGRect(x: start!.x, y: start!.y, width: translation.x, height: translation.y)
             layer.frame = bounds
             
         }
@@ -130,8 +129,10 @@ class PictureViewController: UIViewController, UINavigationControllerDelegate, U
 
         let imageFixed = imageView.image!
 
-        let cropRect = CGRect(x: layer.frame.origin.y, y: layer.frame.origin.x, width: layer.frame.height, height: layer.frame.width)
+//        let cropRect = CGRect(x: layer.frame.origin.y, y: layer.frame.origin.x, width: layer.frame.height, height: layer.frame.width)
 
+        let cropRect = CGRect(x: 50, y: 50, width: 150, height: 150)
+        
         let viewWidth = imageView.frame.width
         let viewHeight = imageView.frame.height
 
@@ -139,9 +140,9 @@ class PictureViewController: UIViewController, UINavigationControllerDelegate, U
         let imageViewScaleY = imageFixed.size.height / viewHeight
         
         let cropZone = CGRect(x:cropRect.origin.x * imageViewScaleY,
-                              y:cropRect.origin.y * imageViewScaleY,
+                              y:cropRect.origin.y * imageViewScaleX,
                               width:cropRect.size.width * imageViewScaleY,
-                              height:cropRect.size.height * imageViewScaleY)
+                              height:cropRect.size.height * imageViewScaleX)
 
         print("crop x: \(cropZone.origin.x), crop y: \(cropZone.origin.y)")
         print("crop width: \(cropZone.width), crop height \(cropZone.height)")

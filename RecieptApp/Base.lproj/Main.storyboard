@@ -53,17 +53,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0B0-mZ-4ci">
-                                <rect key="frame" x="0.0" y="93" width="375" height="500"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0B0-mZ-4ci">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="0B0-mZ-4ci" firstAttribute="top" secondItem="P5v-GE-kv3" secondAttribute="top" constant="73" id="1z7-S8-ief"/>
-                            <constraint firstItem="0B0-mZ-4ci" firstAttribute="trailing" secondItem="P5v-GE-kv3" secondAttribute="trailing" id="CeL-xx-bS5"/>
-                            <constraint firstItem="0B0-mZ-4ci" firstAttribute="leading" secondItem="P5v-GE-kv3" secondAttribute="leading" id="KUr-vq-hOs"/>
-                            <constraint firstItem="P5v-GE-kv3" firstAttribute="bottom" secondItem="0B0-mZ-4ci" secondAttribute="bottom" constant="74" id="yRp-qq-24U"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="P5v-GE-kv3"/>
                     </view>
                     <navigationItem key="navigationItem" id="eYB-WZ-pfC">
@@ -83,13 +78,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="imageView" destination="0B0-mZ-4ci" id="Jee-rQ-1md"/>
-                        <outlet property="topImageViewConstraint" destination="1z7-S8-ief" id="f65-wq-Hzp"/>
                         <segue destination="XZ4-5S-qmp" kind="presentation" identifier="PictureToGroups" id="ifm-PY-OXQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCk-tY-DIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3676" y="23"/>
+            <point key="canvasLocation" x="-3676" y="22.938530734632685"/>
         </scene>
         <!--Reciept App-->
         <scene sceneID="HcX-3L-m1u">
